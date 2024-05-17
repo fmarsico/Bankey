@@ -11,6 +11,8 @@
 		DB40DB5C2BF197EA004C8BEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40DB5B2BF197EA004C8BEB /* LoginViewController.swift */; };
 		DB40DB612BF197EB004C8BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB40DB602BF197EB004C8BEB /* Assets.xcassets */; };
 		DB40DB642BF197EB004C8BEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DB40DB632BF197EB004C8BEB /* Base */; };
+		DB8A0AE12BF6D1A7007DCD99 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A0AE02BF6D1A7007DCD99 /* DummyViewController.swift */; };
+		DBC9DF792BF6FEFC003F0ED1 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC9DF782BF6FEFC003F0ED1 /* LocalState.swift */; };
 		DBCE9F112BF1C06B00F251D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCE9F102BF1C06B00F251D3 /* LoginView.swift */; };
 		DBCE9F142BF414B600F251D3 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCE9F132BF414B600F251D3 /* OnboardingContainerViewController.swift */; };
 		DBCE9F162BF4159400F251D3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCE9F152BF4159400F251D3 /* OnboardingViewController.swift */; };
@@ -23,6 +25,8 @@
 		DB40DB602BF197EB004C8BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB40DB632BF197EB004C8BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB40DB652BF197EB004C8BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8A0AE02BF6D1A7007DCD99 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		DBC9DF782BF6FEFC003F0ED1 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		DBCE9F102BF1C06B00F251D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DBCE9F132BF414B600F251D3 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		DBCE9F152BF4159400F251D3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -58,12 +62,21 @@
 		DB40DB562BF197EA004C8BEB /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				DB8A0AE22BF6FCBD007DCD99 /* Utils */,
 				DBCE9F122BF4149C00F251D3 /* Onboarding */,
 				DBCE9F0E2BF1BFFB00F251D3 /* Files */,
 				DBCE9F0F2BF1C04400F251D3 /* Login */,
 				DB40DB572BF197EA004C8BEB /* AppDelegate.swift */,
 			);
 			path = Bankey;
+			sourceTree = "<group>";
+		};
+		DB8A0AE22BF6FCBD007DCD99 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9DF782BF6FEFC003F0ED1 /* LocalState.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		DBCE9F0E2BF1BFFB00F251D3 /* Files */ = {
@@ -81,6 +94,7 @@
 			children = (
 				DB40DB5B2BF197EA004C8BEB /* LoginViewController.swift */,
 				DBCE9F102BF1C06B00F251D3 /* LoginView.swift */,
+				DB8A0AE02BF6D1A7007DCD99 /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -165,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBCE9F112BF1C06B00F251D3 /* LoginView.swift in Sources */,
+				DBC9DF792BF6FEFC003F0ED1 /* LocalState.swift in Sources */,
+				DB8A0AE12BF6D1A7007DCD99 /* DummyViewController.swift in Sources */,
 				DB40DB5C2BF197EA004C8BEB /* LoginViewController.swift in Sources */,
 				DBCE9F162BF4159400F251D3 /* OnboardingViewController.swift in Sources */,
 				DB40DB582BF197EA004C8BEB /* AppDelegate.swift in Sources */,
