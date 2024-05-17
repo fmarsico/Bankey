@@ -6,3 +6,5 @@ Shift + Cmd + Y - mostrar e ocultar paineis inferiores
 Ctl + i - identacao, mas precisa selecionar o texto
 Cmd + mouse click - para ir para a definicao de uma variavel
 Cmd + ctl + <- - para voltar ao local do clique
+
+sf symbols 
